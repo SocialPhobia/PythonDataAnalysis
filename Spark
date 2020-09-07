@@ -1,0 +1,225 @@
+#import modules import csv
+import pandas as pd
+from matplotlib import pyplot as plt import numpy as np
+
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneZero88ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) z88=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+z88[n] = z88[n].astype(float) z88=z88.abs()
+
+
+plt.plot(z88[2]) plt.title("Zero 88ms in") plt.show() plt.plot(z88[1]) plt.title("Zero 88ms out") plt.show()
+
+#df.to_csv("out.csv") """
+ 
+#import modules import csv
+import pandas as pd
+from matplotlib import pyplot as plt import numpy as np
+
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneTrue10ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) t10=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+t10[n] = t10[n].astype(float) t10=t10.abs()
+
+
+plt.plot(t10[2]) plt.title("True 10ms in") plt.show() plt.plot(t10[1]) plt.title("True 10ms out") plt.show()
+#df.to_csv("out.csv") """ #import modules
+import csv
+ 
+import pandas as pd
+from matplotlib import pyplot as plt import numpy as np
+
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneTrue7ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) t7=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+t7[n] = t7[n].astype(float) t7=t7.abs()
+
+
+plt.plot(t7[2]) plt.title("True 7ms in") plt.show() plt.plot(t7[1]) plt.title("True 7ms out") plt.show()
+#df.to_csv("out.csv") """ #import modules
+import csv
+import pandas as pd
+from matplotlib import pyplot as plt
+ 
+import numpy as np
+
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneTrue73ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) t73=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+t73[n] = t73[n].astype(float) t73=t73.abs()
+
+
+plt.plot(t73[2]) plt.title("True 73ms in") plt.show() plt.plot(t73[1]) plt.title("True 73ms out") plt.show()
+
+#df.to_csv("out.csv") """
+
+
+#import modules import csv
+import pandas as pd
+from matplotlib import pyplot as plt import numpy as np
+ 
+
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneTrue20ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) t20=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+t20[n] = t20[n].astype(float) t20=t20.abs()
+
+
+plt.plot(t20[2]) plt.title("True 20ms in") plt.show() plt.plot(t20[1]) plt.title("True 20ms out") plt.show()
+
+#df.to_csv("out.csv") """
+
+
+#import modules import csv
+import pandas as pd
+from matplotlib import pyplot as plt import numpy as np
+ 
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneTrue30ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) t30=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+t30[n] = t30[n].astype(float) t30=t30.abs()
+
+
+plt.plot(t30[2]) plt.title("True 30ms in") plt.show() plt.plot(t30[1]) plt.title("True 30ms out") plt.show()
+
+#df.to_csv("out.csv") """
+
+
+#import modules import csv
+import pandas as pd
+from matplotlib import pyplot as plt import numpy as np
+ 
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneZero30ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) z30=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+z30[n] = z30[n].astype(float) z30=z30.abs()
+
+
+plt.plot(z30[2]) plt.title("Zero 30ms in") plt.show() plt.plot(z30[1]) plt.title("Zero 30ms out") plt.show()
+
+#df.to_csv("out.csv") """
+
+
+#import modules import csv
+import pandas as pd
+from matplotlib import pyplot as plt import numpy as np
+ 
+#array definitions data_array=[] a_array=[] b_array=[]
+
+#open files
+with open("./Files/CapstoneZero8ms.CSV") as file_again: for data in file_again:
+data_array.append(data.rstrip(",")) readcsv = csv.reader(data_array)
+
+#close files file_again.close()
+
+#append array
+for data in readcsv: a_array.append(data)
+a_del=np.delete(a_array,0,0)
+
+b_array=np.array(a_del) z8=pd.DataFrame(data=b_array)
+
+#Data Conditioning x =[0,1,2]
+for n in x:
+z8[n] = z8[n].astype(float) z8=z8.abs()
+
+
+plt.plot(z8[2]) plt.title("Zero 8ms in") plt.show() plt.plot(z8[1]) plt.title("Zero 8ms out") plt.show()
+
+#df.to_csv("out.csv") """
+
+
+reversefullform=z30.append(t7, ignore_index=True) reversefullform=reversefullform.append(z88, ignore_index=True) reversefullform=reversefullform.append(z30, ignore_index=True) reversefullform=reversefullform.append(t10, ignore_index=True) reversefullform=reversefullform.append(z8, ignore_index=True) reversefullform=reversefullform.append(t7, ignore_index=True) reversefullform=reversefullform.append(z30, ignore_index=True)
+ 
+ 
+ 
